@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  #carrito {
+    margin-top: 20px;
+  }
+  
+  #carrito-lista {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #carrito-lista li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #total {
+    font-weight: bold;
+  }
+  
